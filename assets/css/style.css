@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+ul{
+    margin: 50px 0 0 80px;
+    font-size: 20px;
+}
+@font-face {
+    font-family: Fonte1;
+    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf)format('truetype');
+}
+.card{
+    width: 400px;
+    height: 550px;
+    background-image: url(../images/backgrounds/bg2_teste.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid #bac2bc;
+    margin: auto;
+    font-family: Fonte1;
+    padding: 1px 20px;
+}
+.card h1{
+    text-align: center;
+    font-weight: 100;  
+ }
+.card p{
+    margin-left: 30px;
+    font-size: 20px;  
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card a:hover{
+    color: blue;
+}
+.instagram{
+    list-style-image: url("../images/logos/instagram.png");
+}
+.facebook{
+    list-style-image: url("../images/logos/facebook.png");
+}
+.github{
+    list-style-image: url("../images/logos/github.png") ;
+}
+.profile{
+    width: 150px;
+    display: block;
+    margin: 50px auto 30px auto;
+    border-radius: 50%;
+    border: 10px solid #7ac2c4;
+    box-shadow: 0 0 10px 3px black;
+}
